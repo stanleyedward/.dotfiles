@@ -119,3 +119,4 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 alias synctime="sudo ~/.bins/synctime.sh"
+alias watch-smi="watch -n 0.1 nvidia-smi"
