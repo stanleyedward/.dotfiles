@@ -1,0 +1,5 @@
+github-cli
+zsh
+zsh-autosuggestions
+zsh-syntax-highlighting
+kitty
