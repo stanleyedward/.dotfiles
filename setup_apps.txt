@@ -10,3 +10,5 @@ btop
 nvtop
 github-cli
 tmux
+
+https://gruvbox-wallpapers.pages.dev/
