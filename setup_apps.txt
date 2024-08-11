@@ -1,0 +1,12 @@
+nvidia-inst
+visual-studio-code-bin
+vesktop
+spotify-launcher
+kitty
+miniconda
+zsh
+ohmyzsh
+btop
+nvtop
+github-cli
+tmux
