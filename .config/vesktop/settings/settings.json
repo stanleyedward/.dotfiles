@@ -32,7 +32,7 @@
             "enabled": false
         },
         "MessagePopoverAPI": {
-            "enabled": false
+            "enabled": true
         },
         "MessageUpdaterAPI": {
             "enabled": false
@@ -479,16 +479,18 @@
             "enabled": false
         },
         "UnlockedAvatarZoom": {
-            "enabled": false
+            "enabled": true
         },
         "UnsuppressEmbeds": {
             "enabled": false
         },
         "UserVoiceShow": {
-            "enabled": false
+            "enabled": true
         },
         "USRBG": {
-            "enabled": false
+            "enabled": false,
+            "nitroFirst": true,
+            "voiceBackground": true
         },
         "ValidReply": {
             "enabled": false
@@ -503,19 +505,21 @@
             "enabled": false
         },
         "VencordToolbox": {
-            "enabled": false
+            "enabled": true
         },
         "ViewIcons": {
-            "enabled": false
+            "enabled": true
         },
         "ViewRaw": {
-            "enabled": false
+            "enabled": true
         },
         "VoiceDownload": {
             "enabled": false
         },
         "VoiceMessages": {
-            "enabled": false
+            "enabled": true,
+            "noiseSuppression": true,
+            "echoCancellation": true
         },
         "WebKeybinds": {
             "enabled": true
@@ -558,6 +562,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1723437749663
+        "settingsSyncVersion": 1723470215008
     }
 }

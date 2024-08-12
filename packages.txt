@@ -1,4 +1,4 @@
-nvidia-inst
+lnvidia-inst
 visual-studio-code-bin
 vesktop
 spotify-launcher
@@ -13,5 +13,24 @@ nvtop
 github-cli
 tmux
 
-https://gruvbox-wallpapers.pages.dev/
+spotify:
+spotify
+spicetify-cli (give write permissions on spotify files check install spicetify)
+https://github.com/williamckha/spicetify-fluent (run the install script cmds manually)
+spicetify config extensions fluent.js
+spicetify config current_theme Fluent
+spicetify config color_scheme gruvbox
+spicetify config inject_css 1 replace_colors 1 overwrite_assets 1
+
+gruvbox repos:
+https://github.com/AllJavi/tartarus-dotfiles
 https://github.com/Costeer/Gruvbox-Material-Themes
+
+system:
+gruvbox-material-icon-theme-git (icons)
+https://www.pling.com/p/1327717/ (color-scheme gruvbox)
+https://www.pling.com/p/1327719/ (plasma gruvbox)
+https://www.pling.com/p/1327723/
+
+wallpaper:
+https://gruvbox-wallpapers.pages.dev/
