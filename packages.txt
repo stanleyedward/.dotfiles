@@ -14,3 +14,4 @@ github-cli
 tmux
 
 https://gruvbox-wallpapers.pages.dev/
+https://github.com/Costeer/Gruvbox-Material-Themes

@@ -2,10 +2,10 @@
     "autoUpdate": true,
     "autoUpdateNotification": true,
     "useQuickCss": true,
-    "themeLinks": [
-        "https://github.com/Costeer/Gruvbox-Material-Themes/blob/main/Discord%20Theme/gruvboxmaterial.theme.css"
+    "themeLinks": [],
+    "enabledThemes": [
+        "materialgruvbox-2.theme.css"
     ],
-    "enabledThemes": [],
     "enableReactDevtools": false,
     "frameless": true,
     "transparent": false,
@@ -558,6 +558,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1723435364451
+        "settingsSyncVersion": 1723437749663
     }
 }
