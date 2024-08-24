@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Yakuake
+Exec=/usr/bin/yakuake
+Type=Application
+#Terminal=False
