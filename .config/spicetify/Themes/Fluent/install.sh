@@ -10,7 +10,7 @@ sleep 3s
 
 # Check if ~\.spicetify-cli\Themes\Fluent directory exists
 spicePath=$(dirname "$(spicetify -c)")
-themePath="$spicePath/Themes/Fluent"
+themePath="$spicePath/Themes/Fluent"                                                
 if [ ! -d $themePath ]; then
     echo "Creating Fluent theme folder..."
     mkdir -p $themePath
