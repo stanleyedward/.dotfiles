@@ -171,7 +171,7 @@
         },
         "FakeProfileThemes": {
             "enabled": true,
-            "nitroFirst": true
+            "nitroFirst": false
         },
         "FavoriteEmojiFirst": {
             "enabled": false
@@ -440,9 +440,6 @@
         "RoleColorEverywhere": {
             "enabled": false
         },
-        "SearchReply": {
-            "enabled": false
-        },
         "SecretRingToneEnabler": {
             "enabled": false
         },
@@ -630,6 +627,18 @@
         },
         "AlwaysExpandRoles": {
             "enabled": false
+        },
+        "CopyFileContents": {
+            "enabled": false
+        },
+        "StickerPaste": {
+            "enabled": false
+        },
+        "VolumeBooster": {
+            "enabled": false
+        },
+        "FullSearchContext": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -642,6 +651,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1725106689042
+        "settingsSyncVersion": 1727122635704
     }
 }
