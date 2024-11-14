@@ -276,7 +276,8 @@
             "ignoreChannels": "",
             "ignoreGuilds": "",
             "logEdits": true,
-            "logDeletes": true
+            "logDeletes": true,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": false
@@ -553,7 +554,10 @@
             "enabled": false
         },
         "UserVoiceShow": {
-            "enabled": true
+            "enabled": true,
+            "showInUserProfileModal": true,
+            "showInMemberList": true,
+            "showInMessages": true
         },
         "USRBG": {
             "enabled": false,
@@ -639,6 +643,9 @@
         },
         "FullSearchContext": {
             "enabled": false
+        },
+        "AccountPanelServerProfile": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -651,6 +658,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1727122635704
+        "settingsSyncVersion": 1729332222279
     }
 }
