@@ -125,11 +125,11 @@ export PATH="/usr/local/cuda-12.1/bin:$PATH"
 export LD_LIBRARY_PATH="/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH"
 
 #Nsys 
-alias nsys="/home/stanley/nsight-systems-2024.7.1/bin/nsys"
-alias nsys-ui="/home/stanley/nsight-systems-2024.7.1/bin/nsys-ui"
+#alias nsys="/home/stanley/nsight-systems-2024.7.1/bin/nsys"
+#alias nsys-ui="/home/stanley/nsight-systems-2024.7.1/bin/nsys-ui"
 
-alias ncu="/usr/local/NVIDIA-Nsight-Compute-2024.3/ncu"
-alias ncu-ui="/usr/local/NVIDIA-Nsight-Compute-2024.3/ncu-ui"
+#alias ncu="/usr/local/NVIDIA-Nsight-Compute-2024.3/ncu"
+#alias ncu-ui="/usr/local/NVIDIA-Nsight-Compute-2024.3/ncu-ui"
 
 #To uninstall the NVIDIA Nsight Compute, please delete "/usr/local/NVIDIA-Nsight-Compute-2024.3" and remove symlink at "/usr/local/NVIDIA-Nsight-Compute"
 #To uninstall the NVIDIA Nsight Systems, please delete "/home/stanley/nsight-systems-2024.7.1/"
