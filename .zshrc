@@ -133,3 +133,7 @@ export LD_LIBRARY_PATH="/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH"
 
 #To uninstall the NVIDIA Nsight Compute, please delete "/usr/local/NVIDIA-Nsight-Compute-2024.3" and remove symlink at "/usr/local/NVIDIA-Nsight-Compute"
 #To uninstall the NVIDIA Nsight Systems, please delete "/home/stanley/nsight-systems-2024.7.1/"
+
+if [ -f "$HOME/.bins/sysclean.sh" ]; then
+    source "$HOME/.bins/sysclean.sh"
+fi
