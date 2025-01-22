@@ -12,6 +12,7 @@ btop
 nvtop
 github-cli
 tmux
+display3d
 
 spotify:
 spotify
