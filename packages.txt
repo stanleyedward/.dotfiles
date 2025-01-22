@@ -1,4 +1,4 @@
-lnvidia-inst
+nvidia-inst
 visual-studio-code-bin
 vesktop
 spotify-launcher
