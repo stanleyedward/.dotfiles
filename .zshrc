@@ -137,3 +137,5 @@ export LD_LIBRARY_PATH="/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH"
 if [ -f "$HOME/.bins/sysclean.sh" ]; then
     source "$HOME/.bins/sysclean.sh"
 fi
+
+alias blahaj="display3d $HOME/.dotfiles/assets/blahaj/blahaj.obj -t 0,0,5.5"
