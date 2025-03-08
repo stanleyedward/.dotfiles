@@ -15,6 +15,9 @@ tmux
 rustup
 display3d
 tealdeer
+libva-nvidia-driver
+xorg-xwayland
+wayland-protocols
 
 spotify:
 spotify
