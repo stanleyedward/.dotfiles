@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "e18865c3b6c2fab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "b282d8483bc78368",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da2511041ba5b30c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3_tags/gaussian_splatting.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gaussian_splatting"
+            }
+          },
+          {
+            "id": "f02063ee503a3da0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "6_zettelkasten/notes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "notes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f7a1391d6d1504f2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c6008dd44febfa3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90595d3706a909cc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "a693de7dcbc8b991",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "90b3cb18ab460dd4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 253.5
+  },
+  "right": {
+    "id": "a56f7dff208e89aa",
+    "type": "split",
+    "children": [
+      {
+        "id": "804ea041e668d7a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eb9a415385d1c1e3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3_tags/gaussian_splatting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for gaussian_splatting"
+            }
+          },
+          {
+            "id": "af55128cd9c1da46",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3_tags/gaussian_splatting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from gaussian_splatting"
+            }
+          },
+          {
+            "id": "b331764d29eb1ab9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "890fef27597ca349",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3_tags/gaussian_splatting.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of gaussian_splatting"
+            }
+          },
+          {
+            "id": "f3ee1c5362f8ee8f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "smart-random-note:Open Random Note from Search": false
+    }
+  },
+  "active": "da2511041ba5b30c",
+  "lastOpenFiles": [
+    "6_zettelkasten/notes.md",
+    "3_tags/gaussian_splatting.md",
+    "6_zettelkasten/radiance fields.md",
+    "2_sources/Videos/How to take notes in obsidian.md",
+    "3_tags/note_taking.md",
+    "2_sources/Videos/UntitledHow.md",
+    "2_sources/Videos",
+    "Untitled",
+    "5_template/Main note.md",
+    "1_rough_notes/todo.md",
+    "1_rough_notes/things to look into.md",
+    "1_rough_notes/3d vision.md",
+    "6_zettelkasten",
+    "5_template",
+    "4_indexes",
+    "Untitled.md",
+    "3_tags",
+    "2_sources",
+    "1_rough_notes/papers to look at.md",
+    "1_rough_notes",
+    "Welcome.md"
+  ]
+}
