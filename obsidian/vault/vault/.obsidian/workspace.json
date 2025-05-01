@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3_tags/gaussian_splatting.md",
+                "file": "1_rough_notes/3d vision.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "gaussian_splatting"
+              "title": "3d vision"
             }
           },
           {
@@ -198,8 +208,8 @@
   },
   "active": "da2511041ba5b30c",
   "lastOpenFiles": [
-    "6_zettelkasten/notes.md",
     "3_tags/gaussian_splatting.md",
+    "6_zettelkasten/notes.md",
     "6_zettelkasten/radiance fields.md",
     "2_sources/Videos/How to take notes in obsidian.md",
     "3_tags/note_taking.md",

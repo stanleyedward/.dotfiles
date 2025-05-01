@@ -121,9 +121,6 @@ unset __conda_setup
 alias timesync="sudo ~/.bins/timesync.sh"
 export PATH=$HOME/.local/bin:$PATH
 
-export PATH="/usr/local/cuda-12.1/bin:$PATH"
-export LD_LIBRARY_PATH="/usr/local/cuda-12.1/lib64:$LD_LIBRARY_PATH"
-
 #Nsys 
 alias nsys="/home/stanley/nsight-systems-2024.7.1/bin/nsys"
 alias nsys-ui="/home/stanley/nsight-systems-2024.7.1/bin/nsys-ui"
@@ -144,4 +141,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias conda_remove="for env_name in cud cu113 panorama test test123 torch112cu113 cppcuda cuda126; do conda remove env -n $env_name --all --yes; done"
+
