@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da2511041ba5b30c",
+            "id": "705c8d04200bc6dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_rough_notes/3d vision.md",
+                "file": "1_rough_notes/gsplat code.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,25 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3d vision"
+              "title": "gsplat code"
             }
           },
           {
-            "id": "f02063ee503a3da0",
+            "id": "6d50c5cce0b90346",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6_zettelkasten/notes.md",
+                "file": "1_rough_notes/minutes of meetings.md",
                 "mode": "source",
                 "source": false,
-                "backlinks": false
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "notes"
+              "title": "minutes of meetings"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 200
   },
   "right": {
     "id": "a56f7dff208e89aa",
@@ -167,13 +177,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3_tags/gaussian_splatting.md",
+                "file": "1_rough_notes/things to look into.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of gaussian_splatting"
+              "title": "Outline of things to look into"
             }
           },
           {
@@ -191,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,28 +217,47 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "da2511041ba5b30c",
+  "active": "6d50c5cce0b90346",
   "lastOpenFiles": [
-    "3_tags/gaussian_splatting.md",
+    "5_template/Main note.md",
+    "1_rough_notes/minutes of meetings.md",
+    "1_rough_notes/rasterize_to_pixels().md",
+    "1_rough_notes/SphericalHarmonics().md",
+    "1_rough_notes/things to look into.md",
+    "1_rough_notes/papers to look at.md",
+    "1_rough_notes/isect_offset_encode().md",
+    "1_rough_notes/intersect_tiles().md",
+    "1_rough_notes/fully_fused_projection().md",
+    "1_rough_notes/gsplat code.md",
+    "1_rought_notes",
+    "Untitled 1",
+    "Untitled",
+    "Pasted image 20250510135846.png",
+    "Pasted image 20250510135520.png",
+    "6_zettelkasten/gsplat.md",
+    "2_sources/papers/gsplat.md",
     "6_zettelkasten/notes.md",
     "6_zettelkasten/radiance fields.md",
     "2_sources/Videos/How to take notes in obsidian.md",
+    "1_rough_notes/3d vision.md",
+    "2_sources/papers",
+    "Untitled 1/Untitled",
+    "Excalidraw/diff-gaussian-rasterizer_backwardPass.excalidraw.md",
+    "1_rough_notes/todo.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
+    "Excalidraw/Scripts/Downloaded/Auto Layout.md",
+    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
+    "Excalidraw/Scripts/Downloaded",
+    "Excalidraw/Scripts",
+    "Excalidraw/Drawing 2025-05-03 13.26.21.excalidraw.md",
+    "Excalidraw",
+    "3_tags/gaussian_splatting.md",
     "3_tags/note_taking.md",
     "2_sources/Videos/UntitledHow.md",
     "2_sources/Videos",
-    "Untitled",
-    "5_template/Main note.md",
-    "1_rough_notes/todo.md",
-    "1_rough_notes/things to look into.md",
-    "1_rough_notes/3d vision.md",
     "6_zettelkasten",
-    "5_template",
-    "4_indexes",
     "Untitled.md",
-    "3_tags",
-    "2_sources",
-    "1_rough_notes/papers to look at.md",
-    "1_rough_notes",
     "Welcome.md"
   ]
 }
