@@ -14,10 +14,25 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    window = {
+      position = 'right',
+    },
     filesystem = {
+      filtered_items = {
+        visible = true, -- when true, they will just be displayed differently than normal items
+        hide_dotfiles = false,
+        hide_gitignored = false,
+        hide_hidden = false, -- only works on Windows for hidden files/directories
+        hide_by_name = {
+          -- '.DS_Store',
+          -- 'thumbs.db',
+          --"node_modules",
+        },
+      },
       window = {
-        -- position = 'right',
-        mappings = { ['\\'] = 'close_window' },
+        mappings = {
+          ['\\'] = 'close_window',
+        },
       },
     },
   },
