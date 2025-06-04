@@ -19,7 +19,11 @@ libva-nvidia-driver
 xorg-xwayland
 wayland-protocols
 
-spotify:
+#wrangling
+bc
+feh
+
+#spotify:
 spotify
 spicetify-cli (give write permissions on spotify files check install spicetify)
 https://github.com/williamckha/spicetify-fluent (run the install script cmds manually)
@@ -40,3 +44,4 @@ https://www.pling.com/p/1327723/
 
 wallpaper:
 https://gruvbox-wallpapers.pages.dev/
+

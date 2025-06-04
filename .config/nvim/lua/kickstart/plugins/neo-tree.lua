@@ -16,6 +16,8 @@ return {
   opts = {
     window = {
       position = 'right',
+      open_files_in_current_window = true,
+      hide_set_cwd = true,
     },
     filesystem = {
       filtered_items = {
