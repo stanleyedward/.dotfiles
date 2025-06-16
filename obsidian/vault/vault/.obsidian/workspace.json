@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_rough_notes/minutes of meetings.md",
+                "file": "1_rough_notes/DBsplatting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,45 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "minutes of meetings"
+              "title": "DBsplatting"
+            }
+          },
+          {
+            "id": "74ba22c4e6e199f2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "85f3288c42036e0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1_rough_notes/thigns_to_ask.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "thigns_to_ask"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,24 +251,34 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "6d50c5cce0b90346",
+  "active": "85f3288c42036e0d",
   "lastOpenFiles": [
-    "5_template/Main note.md",
-    "1_rough_notes/minutes of meetings.md",
-    "1_rough_notes/rasterize_to_pixels().md",
+    "1_rough_notes/triangle_splatting.md",
+    "1_rough_notes/thigns_to_ask.md",
+    "Untitled",
+    "1_rough_notes/fully_fused_projection().md",
     "1_rough_notes/SphericalHarmonics().md",
+    "1_rough_notes/DBsplatting.md",
+    "1_rough_notes/IDP meet questions.md",
+    "Untitled 2",
+    "Pasted image 20250610185059.png",
+    "Pasted image 20250610185040.png",
+    "Pasted image 20250606160829.png",
+    "Pasted image 20250606154151.png",
+    "Pasted image 20250606151219.png",
+    "6_zettelkasten/gsplat.md",
+    "1_rough_notes/minutes of meetings.md",
+    "5_template/Main note.md",
+    "1_rough_notes/rasterize_to_pixels().md",
     "1_rough_notes/things to look into.md",
     "1_rough_notes/papers to look at.md",
     "1_rough_notes/isect_offset_encode().md",
     "1_rough_notes/intersect_tiles().md",
-    "1_rough_notes/fully_fused_projection().md",
     "1_rough_notes/gsplat code.md",
     "1_rought_notes",
     "Untitled 1",
-    "Untitled",
     "Pasted image 20250510135846.png",
     "Pasted image 20250510135520.png",
-    "6_zettelkasten/gsplat.md",
     "2_sources/papers/gsplat.md",
     "6_zettelkasten/notes.md",
     "6_zettelkasten/radiance fields.md",
@@ -253,11 +297,6 @@
     "Excalidraw/Drawing 2025-05-03 13.26.21.excalidraw.md",
     "Excalidraw",
     "3_tags/gaussian_splatting.md",
-    "3_tags/note_taking.md",
-    "2_sources/Videos/UntitledHow.md",
-    "2_sources/Videos",
-    "6_zettelkasten",
-    "Untitled.md",
-    "Welcome.md"
+    "2_sources/Videos"
   ]
 }
