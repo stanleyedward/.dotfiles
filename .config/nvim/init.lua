@@ -672,7 +672,20 @@ require('lazy').setup({
       local servers = {
         clangd = {},
         -- gopls = {},
-        pyright = {},
+        -- pyright = {},
+        pylsp = {
+          settings = {
+            pylsp = {
+              plugins = {
+                pycodestyle = {
+                  ignore = { 'E501' },
+                  -- You can also increase the max line length if you prefer, e.g.:
+                  -- maxLineLength = 88,
+                },
+              },
+            },
+          },
+        },
         -- rust_analyzer = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
@@ -682,7 +695,6 @@ require('lazy').setup({
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
         --
-
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -717,6 +729,8 @@ require('lazy').setup({
         'stylua', -- Used to format Lua code
         'clang-format', -- Used to format C/C++ code
         'black', -- Used to format Python code
+        -- 'prettier', -- Used to format JavaScript, HTML, CSS, JSON, Markdown, and YAML code
+        -- 'prettierd', -- Used to format JavaScript, HTML, CSS, JSON, Markdown, and YAML code
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
@@ -776,7 +790,12 @@ require('lazy').setup({
         cpp = { 'clang-format' },
         cuda = { 'clang-format' },
         -- You can use 'stop_after_first' to run the first available formatter from the list
-        -- javascript = { "prettierd", "prettier", stop_after_first = true },
+        -- javascript = { 'prettierd', 'prettier', stop_after_first = true },
+        -- html = { 'prettierd', 'prettier', stop_after_first = true },
+        -- css = { 'prettierd', 'prettier', stop_after_first = true },
+        -- json = { 'prettierd', 'prettier', stop_after_first = true },
+        -- markdown = { 'prettierd', 'prettier', stop_after_first = true },
+        -- yaml = { 'prettierd', 'prettier', stop_after_first = true },
       },
     },
   },
@@ -906,7 +925,7 @@ require('lazy').setup({
     config = function()
       ---@diagnostic disable-next-line: missing-fields
       require('gruvbox').setup {
-        transparent_mode = false,
+        transparent_mode = false, -- Enable transparent background
       }
       vim.o.background = 'dark' -- Set the background to dark
       vim.cmd.colorscheme 'gruvbox'

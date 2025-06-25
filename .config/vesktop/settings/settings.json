@@ -130,8 +130,11 @@
             "enabled": false
         },
         "CustomRPC": {
-            "enabled": true,
-            "type": 0
+            "enabled": false,
+            "type": 0,
+            "timestampMode": 0,
+            "appName": "Pokemon Rejuvenation",
+            "appID": "123"
         },
         "CustomIdle": {
             "enabled": false
@@ -237,7 +240,7 @@
             "enabled": false
         },
         "LastFMRichPresence": {
-            "enabled": false,
+            "enabled": true,
             "shareUsername": false,
             "shareSong": true,
             "hideWithSpotify": true,
@@ -245,7 +248,8 @@
             "nameFormat": "status-name",
             "useListeningStatus": false,
             "missingArt": "lastfmLogo",
-            "showLastFmLogo": true
+            "showLastFmLogo": true,
+            "hideWithActivity": false
         },
         "LoadingQuotes": {
             "enabled": false
@@ -666,6 +670,9 @@
         },
         "ExpressionCloner": {
             "enabled": false
+        },
+        "DisableDeepLinks": {
+            "enabled": true
         }
     },
     "notifications": {
@@ -678,7 +685,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1749736497935
+        "settingsSyncVersion": 1750504132335
     },
     "eagerPatches": false
 }
