@@ -16,5 +16,13 @@
       ],
       "key": "P"
     }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
+    }
   ]
 }

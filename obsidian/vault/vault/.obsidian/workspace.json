@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a770db9bfb21c04e",
+        "id": "b20d0f18d76f5cd8",
         "type": "tabs",
         "children": [
           {
-            "id": "9f3b3e1ff327479f",
+            "id": "09a0940e649a5d47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_rough_notes/thigns_to_ask.md",
+                "file": "1_rough_notes/hybrid_renderer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "thigns_to_ask"
+              "title": "hybrid_renderer"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 205.5
   },
   "right": {
     "id": "a56f7dff208e89aa",
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1_rough_notes/things to look into.md",
+                "file": "1_rough_notes/Chp_4_PMPP.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of things to look into"
+              "title": "Outline of Chp_4_PMPP"
             }
           },
           {
@@ -176,11 +176,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -192,53 +192,54 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "9f3b3e1ff327479f",
+  "active": "09a0940e649a5d47",
   "lastOpenFiles": [
-    "1_rough_notes/minutes of meetings.md",
-    "Excalidraw/3DGS_metric_param_mapping.excalidraw.md",
-    "1_rough_notes/thigns_to_ask.md",
-    "1_rough_notes/taxonomy of gsplat.md",
-    "1_rough_notes/evaluating splatting.md",
-    "1_rough_notes/Masters abroad Questions.md",
-    "1_rough_notes/IDP US meet.md",
-    "1_rough_notes/papers to look at.md",
-    "1_rough_notes/todo.md",
-    "1_rough_notes/UK IDP meeting.md",
-    "6_zettelkasten/triangle_splatting.md",
-    "6_zettelkasten/DBsplatting.md",
-    "6_zettelkasten/gsplat code.md",
-    "3_tags/Masters abroad.md",
-    "2_sources/papers/gsplat.md",
-    "6_zettelkasten/isect_offset_encode().md",
-    "6_zettelkasten/SphericalHarmonics().md",
-    "6_zettelkasten/rasterize_to_pixels().md",
-    "6_zettelkasten/intersect_tiles().md",
-    "6_zettelkasten/fully_fused_projection().md",
-    "1_rough_notes/3d vision.md",
-    "6_zettelkasten/gsplat.md",
-    "6_zettelkasten/radiance fields.md",
-    "6_zettelkasten/notes.md",
+    "Excalidraw/hybrid_renderer.md",
+    "1_rough_notes/hybrid_renderer.md",
+    "1_rough_notes/SOP draft.md",
+    "1_rough_notes/Final_SOP.md",
+    "Excalidraw/Drawing 2025-09-26 19.49.20.excalidraw.md",
+    "Excalidraw/triangle_intersection.md",
     "Excalidraw/diff-gaussian-rasterizer_backwardPass.excalidraw.md",
-    "3_tags/gaussian_splatting.md",
-    "Untitled",
-    "Untitled 1",
-    "Pasted image 20250616205448.png",
+    "Excalidraw/3DGS_metric_param_mapping.excalidraw.md",
+    "Excalidraw/3d_vision_talk.md",
+    "1_rough_notes/3_why_im_qualified.md",
+    "1_rough_notes/1_Introduction.md",
+    "1_rough_notes/4_conclusion.md",
+    "1_rough_notes/2_why_this_program.md",
+    "1_rough_notes/professors.md",
+    "3_tags/Statement of Purpose.md",
+    "1_rough_notes/Untitled.base",
+    "1_rough_notes/Untitled 1.base",
+    "1_rough_notes/Untitled 6.base",
+    "1_rough_notes/Untitled 4.base",
+    "Excalidraw/map.excalidraw.md",
+    "Pasted Image 20251001211103_804.png",
+    "Pasted Image 20251001185545_608.png",
+    "Pasted Image 20251001185501_993.png",
+    "Pasted Image 20251001185252_078.png",
+    "1_rough_notes/triangles.md",
+    "1_rough_notes/Masters SOP Guide.md",
+    "1_rough_notes/2025-09-23.md",
+    "1_rough_notes/3D vision talk.md",
+    "Pasted image 20250714131621.png",
+    "Pasted image 20250714131854.png",
+    "Pasted image 20250714160608.png",
+    "Pasted image 20250717084836.png",
+    "Pasted image 20250810210310.png",
+    "Pasted image 20250810210323.png",
+    "1_rough_notes/Untitled 5.base",
+    "1_rough_notes/Untitled 3.base",
+    "1_rough_notes/Untitled 2.base",
+    "1_rough_notes/DEVOP.md",
+    "3_tags/hybrid_splatting.md",
+    "6_zettelkasten/taxonomy of gsplat.md",
+    "1_rough_notes/ask.md",
+    "Excalidraw/Drawing 2025-09-23 18.45.50.excalidraw.md",
+    "3_tags/Work.md",
+    "Untitled.canvas",
     "Untitled 2",
-    "Pasted image 20250610185059.png",
-    "Pasted image 20250610185040.png",
-    "Pasted image 20250606160829.png",
-    "Pasted image 20250606154151.png",
-    "Pasted image 20250606151219.png",
-    "1_rought_notes",
-    "Pasted image 20250510135846.png",
-    "Untitled 1/Pasted image 20250510135520.png",
-    "2_sources/papers",
-    "Untitled 1/Untitled",
-    "Excalidraw/Scripts/Downloaded/Auto Layout.svg",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
-    "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts",
-    "Excalidraw",
-    "2_sources/Videos"
+    "Untitled 1",
+    "Untitled"
   ]
 }
