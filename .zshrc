@@ -103,20 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/stanley/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/stanley/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/stanley/miniconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/stanley/miniconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
 
 alias timesync="sudo ~/.bins/timesync.sh"
 export PATH=$HOME/.local/bin:$PATH
@@ -144,3 +130,16 @@ export NVM_DIR="$HOME/.nvm"
 alias mv="mv -i"
 alias cheese="ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | magick - -colorspace gray - | feh -" 
 alias ll="ls -lah"
+
+# >>> mamba initialize >>>
+# !! Contents within this block are managed by 'micromamba shell init' !!
+export MAMBA_EXE='/home/stanley/.local/bin/micromamba';
+export MAMBA_ROOT_PREFIX='/home/stanley/micromamba';
+__mamba_setup="$("$MAMBA_EXE" shell hook --shell zsh --root-prefix "$MAMBA_ROOT_PREFIX" 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__mamba_setup"
+else
+    alias micromamba="$MAMBA_EXE"  # Fallback on help from micromamba activate
+fi
+unset __mamba_setup
+# <<< mamba initialize <<<
