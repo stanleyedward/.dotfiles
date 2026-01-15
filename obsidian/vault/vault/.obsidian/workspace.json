@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fcb021d5835f2789",
+        "id": "185bc7ccea5cf6e7",
         "type": "tabs",
         "children": [
           {
-            "id": "fa051e0ec50c6927",
+            "id": "d51a535a41d03c9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_rough_notes/hybrid_renderer.md",
+                "file": "1_rough_notes/TODO_invision.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "hybrid_renderer"
+              "title": "TODO_invision"
             }
           },
           {
-            "id": "69e539a126f0bfa7",
+            "id": "93d4ef64606929ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_rough_notes/3D_segmentation.md",
+                "file": "1_rough_notes/3D scene graph.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,107 +52,22 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "3D_segmentation"
+              "title": "3D scene graph"
             }
           },
           {
-            "id": "726f43f7c70d3f0f",
+            "id": "12a5ae411239e2b6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "release-notes",
               "state": {
-                "file": "1_rough_notes/large-scale reconstruction.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "currentVersion": "1.11.4"
               },
-              "icon": "lucide-file",
-              "title": "large-scale reconstruction"
-            }
-          },
-          {
-            "id": "a0b76ed37fa0ac41",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_rough_notes/thesis.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "thesis"
-            }
-          },
-          {
-            "id": "decc7b057599fda2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_rough_notes/3D_segmentation.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "3D_segmentation"
-            }
-          },
-          {
-            "id": "b1069ba51867e058",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1_rough_notes/hybrid_renderer.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "hybrid_renderer"
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -338,35 +253,36 @@
       "smart-random-note:Open Random Note from Search": false
     }
   },
-  "active": "a0b76ed37fa0ac41",
+  "active": "d51a535a41d03c9c",
   "lastOpenFiles": [
-    "1_rough_notes/large-scale reconstruction.md",
-    "1_rough_notes/thesis.md",
-    "1_rough_notes/managing_my_interest.md",
+    "3_tags/InVision.md",
+    "1_rough_notes/3D scene graph.md",
+    "1_rough_notes/meeting.md",
+    "1_rough_notes/3D_segmentation.md",
+    "1_rough_notes/TODO_invision.md",
+    "1_rough_notes/2.5_why_this_programs.md",
     "1_rough_notes/meeting with PHD.md",
-    "1_rough_notes/Masters SOP Guide.md",
     "1_rough_notes/minutes of meetings.md",
+    "1_rough_notes/LOR Details.md",
+    "1_rough_notes/large-scale reconstruction.md",
+    "1_rough_notes/presentation notes.md",
+    "Excalidraw/Drawing 2026-01-06 21.03.56.excalidraw.md",
+    "Excalidraw/Drawing 2026-01-06 10.08.55.excalidraw.md",
+    "1_rough_notes/thesis.md",
+    "1_rough_notes/hybrid_renderer.md",
+    "1_rough_notes/SOP draft.md",
     "1_rough_notes/Nerf vs 3DGS in speculars.md",
+    "1_rough_notes/Masters SOP Guide.md",
+    "1_rough_notes/managing_my_interest.md",
+    "3_tags/Presentation.md",
+    "1_rough_notes/Scene_graph.md",
+    "1_rough_notes/3D vision talk.md",
+    "1_rough_notes/video segmentation.md",
+    "Untitled",
     "1_rough_notes/NTL.md",
     "1_rough_notes/professors.md",
-    "1_rough_notes/Scene_graph.md",
-    "1_rough_notes/SOP draft.md",
     "1_rough_notes/triangles.md",
     "1_rough_notes/Untitled.base",
-    "1_rough_notes/video segmentation.md",
-    "1_rough_notes/LOR Details.md",
-    "1_rough_notes/hybrid_renderer.md",
-    "1_rough_notes/Final_SOP.md",
-    "1_rough_notes/indchrist.md",
-    "1_rough_notes/3D_segmentation.md",
-    "Excalidraw/triangle_intersection.md",
-    "3_tags/InVision.md",
-    "Excalidraw/diff-gaussian-rasterizer_backwardPass.excalidraw.md",
-    "Excalidraw/hybrid_renderer.md",
-    "Excalidraw/segmentation_pipeline.md",
-    "Excalidraw/Drawing 2025-12-18 12.23.22.excalidraw.md",
-    "Excalidraw/Drawing 2025-12-12 18.56.27.excalidraw.md",
-    "3_tags/hybrid_splatting.md",
     "Pasted image 20251209075429.png",
     "1_rough_notes/Untitled 1.base",
     "1_rough_notes/Untitled 6.base",
@@ -385,7 +301,6 @@
     "1_rough_notes/Untitled 2.base",
     "Untitled.canvas",
     "Untitled 2",
-    "Untitled 1",
-    "Untitled"
+    "Untitled 1"
   ]
 }

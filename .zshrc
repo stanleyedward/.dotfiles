@@ -1,6 +1,5 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
-export UV_PIP_SYSTEM=true
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -130,6 +129,7 @@ export NVM_DIR="$HOME/.nvm"
 alias mv="mv -i"
 alias cheese="ffmpeg -loglevel panic -i /dev/video0 -frames 1 -f image2 - | magick - -colorspace gray - | feh -" 
 alias ll="ls -lah"
+alias mm="micromamba"
 
 # >>> mamba initialize >>>
 # !! Contents within this block are managed by 'micromamba shell init' !!
@@ -143,3 +143,7 @@ else
 fi
 unset __mamba_setup
 # <<< mamba initialize <<<
+#
+#
+export TORCH_CUDA_ARCH_LIST="8.9"
+export UV_SYSTEM_PYTHON=true
