@@ -928,7 +928,19 @@ require('lazy').setup({
         transparent_mode = false, -- Enable transparent background
       }
       vim.o.background = 'dark' -- Set the background to dark
+      vim.api.nvim_create_autocmd('ColorScheme', {
+        pattern = '*',
+        callback = function()
+          vim.api.nvim_set_hl(0, 'Normal', { bg = '#282828' })
+          vim.api.nvim_set_hl(0, 'NormalNC', { bg = '#282828' })
+          vim.api.nvim_set_hl(0, 'NormalFloat', { bg = '#282828' })
+        end,
+      })
       vim.cmd.colorscheme 'gruvbox'
+
+      vim.api.nvim_set_hl(0, 'Normal', { bg = '#282828' })
+      vim.api.nvim_set_hl(0, 'NormalNC', { bg = '#282828' })
+      vim.api.nvim_set_hl(0, 'NormalFloat', { bg = '#282828' })
     end,
   },
   -- Highlight todo, notes, etc in comments
